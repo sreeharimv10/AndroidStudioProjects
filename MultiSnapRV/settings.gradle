@@ -1,0 +1,2 @@
+rootProject.name = "MultiSnap RV"
+include ':app'
