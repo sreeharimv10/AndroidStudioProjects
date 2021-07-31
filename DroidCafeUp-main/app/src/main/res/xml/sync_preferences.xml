@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="sync"
+        app:title="@string/notif_title" />
+
+    <SwitchPreferenceCompat
+        app:dependency="sync"
+        app:key="attachment"
+        app:summaryOff="@string/offer_notif_off"
+        app:summaryOn="@string/offer_notif_on"
+        app:title="@string/offer_title" />
+
+</PreferenceScreen>
